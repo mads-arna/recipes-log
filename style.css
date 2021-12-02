@@ -1,6 +1,6 @@
 body {
     background-color: #eee;
-    font-family: monospace;
+    font-family: consolas, monaco, monospace;
     font-size:14px;
 }
 h1 {
@@ -10,4 +10,32 @@ h1 {
 h2 {
     font-size:14px;
     font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ol{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a {
+    color: #006600;
+    text-decoration: none;
+}
+a:visited {
+    color: #525560
+}
+a:hover {
+    color: #003300
+}
+footer {
+    text-align: center
 }
