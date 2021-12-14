@@ -1,41 +1,48 @@
 body {
-    background-color: #eee;
-    font-family: consolas, monaco, monospace;
-    font-size:14px;
+  background-color: #eee;
+  font-family: consolas, monaco, monospace;
+  font-size: 14px;
+  min-height: 100vh;
 }
 h1 {
-    font-size: 15px;
-    font-weight: 200;
+  font-size: 15px;
+  font-weight: 200;
 }
 h2 {
-    font-size:14px;
-    font-weight: 200;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 p {
-    margin-left: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-ol{
-    margin-top: 0px;
-    margin-bottom: 0px;
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 a {
-    color: #006600;
-    text-decoration: none;
+  color: #006600;
+  text-decoration: none;
 }
 a:visited {
-    color: #525560
+  color: #525560;
 }
 a:hover {
-    color: #003300
+  color: #003300;
 }
 footer {
-    text-align: center
+  text-align: center;
+  position: sticky;
+  top: 100%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
