@@ -3,6 +3,8 @@ body {
   font-family: consolas, monaco, monospace;
   font-size: 14px;
   min-height: 100vh;
+  overflow: visible;
+  word-wrap: normal;
 }
 h1 {
   font-size: 15px;
@@ -20,9 +22,19 @@ p {
   margin-bottom: 0px;
 }
 ul {
+  list-style-type: none;
   margin-top: 0px;
+  margin-left: 0px;
   margin-bottom: 0px;
+  clear: both;
 }
+.list-image {
+  width: 13px;
+  height: 13px;
+  float: left;
+  padding-right: 13px;
+}
+
 ol {
   margin-top: 0px;
   margin-bottom: 0px;
