@@ -1,54 +1,76 @@
+* {
+  margin-top: 0;
+  margin-bottom:0;
+}
+
 body {
   background-color: #eee;
+  margin-left: 1rem;
   font-family: consolas, monaco, monospace;
-  font-size: 14px;
+  font-size: 1.25rem;
   min-height: 100vh;
-  overflow: visible;
-  word-wrap: normal;
+  /*overflow: visible;
+  word-wrap: normal;*/
 }
+.header {
+  border: 1px solid red;
+}
+
 h1 {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 200;
+  margin: 1rem;
+  text-align:center; 
+}
+.photo-box {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 95%;
+}
+.masala-photo {
+border-radius: 25%;
+border: grey 1px solid;
+}
+.ingredients {
+  border: 1px solid red;
 }
 h2 {
-  font-size: 14px;
+  font-size: .9rem;
   font-weight: 200;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
+
 p {
   margin-left: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
+
 ul {
   list-style-type: none;
-  margin-top: 0px;
   margin-left: 0px;
-  margin-bottom: 0px;
-  clear: both;
 }
+.instructions {
+  border: 1px solid red;
+}
+ol li {
+  margin-bottom: .7rem;
+}
+
 .list-image {
   width: 13px;
   height: 13px;
-  float: left;
-  padding-right: 13px;
 }
 
-ol {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 a {
   color: #006600;
   text-decoration: none;
 }
+
 a:visited {
   color: #525560;
 }
 a:hover {
   color: #003300;
 }
+
 footer {
   text-align: center;
   position: sticky;
@@ -57,4 +79,11 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+  border: 1px solid red;
+}
+
+.home-button {
+  width:30px;
+  height:28px;
+  margin-top: 1rem;
 }
