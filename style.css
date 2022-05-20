@@ -1,41 +1,44 @@
 * {
-  margin-top: 0;
-  margin-bottom:0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   background-color: #eee;
-  margin-left: 1rem;
   font-family: consolas, monaco, monospace;
   font-size: 1.25rem;
   min-height: 100vh;
   /*overflow: visible;
   word-wrap: normal;*/
-}
-.header {
-  border: 1px solid red;
+  margin: 1rem;
 }
 
+/*everything in the header grid container*/
+
+header {
+  border: 1px solid red;
+}
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 200;
   margin: 1rem;
-  text-align:center; 
+  text-align: center;
 }
+
+/*end header*/
+
 .photo-box {
   border: 1px solid red;
-  margin: 0 auto;
-  width: 95%;
 }
 .masala-photo {
-border-radius: 25%;
-border: grey 1px solid;
-}
-.ingredients {
-  border: 1px solid red;
+  border-radius: 25%;
+  border: grey 1px solid;
+  display: block;
+  max-width: 100%;
+  min-width: 30%;
 }
 h2 {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 200;
 }
 
@@ -43,20 +46,23 @@ p {
   margin-left: 20px;
 }
 
+.ingredients {
+  border: 1px solid red;
+}
+
 ul {
   list-style-type: none;
-  margin-left: 0px;
+  margin-left: 0;
 }
 .instructions {
   border: 1px solid red;
 }
 ol li {
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
-
 .list-image {
-  width: 13px;
   height: 13px;
+  width: 13px;
 }
 
 a {
@@ -72,18 +78,18 @@ a:hover {
 }
 
 footer {
-  text-align: center;
-  position: sticky;
-  top: 100%;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
   border: 1px solid red;
+  bottom: 0;
+  left: 0;
+  position: sticky;
+  text-align: center;
+  text-align: center;
+  top: 100%;
+  width: 100%;
 }
 
 .home-button {
-  width:30px;
-  height:28px;
+  height: 28px;
   margin-top: 1rem;
+  width: 30px;
 }
