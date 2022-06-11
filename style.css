@@ -1,20 +1,21 @@
+:root {
+  --pri-accent: #5c732a;
+  --main-background: #eee;
+  --pri-text: #262626;
+}
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
 body {
-  background-color: #eee;
+  background-color: var(--main-background);
   font-family: consolas, monaco, monospace;
-  font-size: 1.02rem;
+  /*font-size: 1.02rem;*/
   min-height: 100vh;
-  /*overflow: visible;
-  word-wrap: normal;*/
   margin: 0.4rem;
-  color: #262626;
+  color: var(--pri-text);
 }
-
-/*everything in the header grid container*/
 
 h1 {
   font-size: 2rem;
@@ -22,15 +23,13 @@ h1 {
   letter-spacing: 2px;
   margin: 1rem;
   text-align: center;
-  color: #5c732a;
+  color: var(--pri-accent);
   text-transform: uppercase;
 }
 
-/*end header*/
-
 .masala-photo {
   border-radius: 25%;
-  border: grey 1px solid;
+  border: var(--pri-accent) 1px solid;
   display: block;
   margin: auto;
   width: 90%;
@@ -42,16 +41,12 @@ h2 {
   font-size: 0.9rem;
   font-weight: 600;
   text-align: center;
-  color: #5c732a;
+  color: var(--pri-accent);
 }
 
 p {
-  /*margin-left: 20px;*/
   text-align: center;
-}
-
-.ingredients {
-  /*border: 1px solid red;*/
+  margin: 1rem;
 }
 
 ul {
@@ -62,12 +57,13 @@ ul li {
   margin-bottom: 0.4rem;
   line-height: 1.1;
 }
-.instructions {
-  /*border: 1px solid red;*/
-}
 ol li {
   margin-bottom: 0.7rem;
 }
+::marker {
+  color: var(--pri-accent);
+}
+/*image marker for ul on several pages but not all*/
 .list-image {
   height: 13px;
   width: 13px;
@@ -86,7 +82,6 @@ a:hover {
 }
 
 footer {
-  /*border: 1px solid red;*/
   bottom: 0;
   left: 0;
   position: sticky;
